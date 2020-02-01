@@ -1,0 +1,34 @@
+alias ls='ls --color=auto'
+alias uu='sudo apt-get update && sudo apt-get upgrade'
+alias ui='sudo apt-get install'
+alias tn="tmux new -s new"
+alias tk="tmux kill-session"
+alias ta="tmux a"
+alias gl='git log --pretty=format:"%an | %ad | %h | %s" --date=short'
+alias gs='git status'
+alias ga='git add .'
+alias gc='git cz'
+alias gb='git branch -v'
+alias gm='git merge'
+alias gsw='git switch'
+alias gbd='git branch -d'
+alias gchb='git checkout -b'
+alias gchf='git checkout -f'
+alias gbc='git checkout -b develop'
+alias gpo='git push -u orign master'
+alias gp='git push'
+alias gr='git reset HEAD'
+alias grc='git reset --hard HEAD~1'
+alias gre='git rebase'
+alias grh='git reset --hard'
+alias grm='git rm --cached'
+alias groh='git revert HEAD --no-edit'
+alias ni="npm install -g"
+alias nug="npm update -g"
+alias nd="npm uninstall -g"
+alias nl="npm list -g --depth=0"
+alias no="npm outdated"
+alias nu="npm update"
+alias nD="npm install -D"
+alias rf="sudo rm -rf"
+PS1="\W: $ \[$(tput sgr0)\]"
