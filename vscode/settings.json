@@ -1,19 +1,4 @@
 {
-  "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[vue]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
   "editor.fontFamily": "JETBRAINS MONO",
   "editor.fontLigatures": true,
   "editor.fontSize": 14,
@@ -24,7 +9,6 @@
   "explorer.confirmDragAndDrop": false,
   "git.confirmSync": false,
   "git.suggestSmartCommit": false,
-  "prettier.vueIndentScriptAndStyle": true,
   "workbench.colorCustomizations": {
     "activityBar.background": "#021132",
     "activityBarBadge.background": "#FFBA08",
@@ -298,4 +282,3 @@
   "extensions.autoUpdate": true,
   "workbench.iconTheme": "awoo"
 }
-
