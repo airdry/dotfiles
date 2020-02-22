@@ -280,5 +280,5 @@
   "workbench.sideBar.location": "right",
   "workbench.startupEditor": "newUntitledFile",
   "extensions.autoUpdate": true,
-  "workbench.iconTheme": "awoo"
+  "workbench.iconTheme": "vscode-icons"
 }
