@@ -1,7 +1,6 @@
 set nocompatible
-
+colorscheme zellner
 syntax on                  " Enable syntax highlighting.
-
 set autoindent             " Indent according to previous line.
 set expandtab              " Use spaces instead of tabs.
 set softtabstop =4         " Tab key indents by 4 spaces.
@@ -28,4 +27,4 @@ set splitright             " Open new windows right of the current window.
 set cursorline             " Find the current line quickly.
 set wrapscan               " Searches wrap around end-of-file.
 set report      =0         " Always report changed lines.
-set synmaxcol   =200       " Only highlight the first 200 columns.% 
+set synmaxcol   =200       " Only highlight the first 200 columns.
